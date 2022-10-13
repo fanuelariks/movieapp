@@ -54,27 +54,4 @@ form.addEventListener('submit', (e) => {
     }
 })
 
-// // const form = document.getElementsByClassName('search')
-// // const search = document.getElementsByClassName('schBar')
-// // const movie = document.getElementsByClassName('menu')
-
-// // // Mendapatkan daftar film
-// // movieApp(API_URL) 
-// // async function movieApp() {
-// //     const app = await fetch(url)
-// //     const data = await app.json()
-// //     console.log(data.results);
-// // }
-
-// // // Menampilkan daftar film
-// // form.addEventListener('submit', (e)=>{
-// //     e.preventDefault();
-// //     const schValue = search.value;
-// //     if(schValue && schValue !==''){
-// //         movieApp(SEARCH_URL+schValue)
-// //         schValue=''
-// //     }else {
-// //         window.location.reload()
-// //     }
-// // })
 
